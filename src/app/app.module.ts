@@ -9,11 +9,13 @@ import { LogInComponent } from './components/log-in/log-in.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { AdminUserComponent } from './components/admin-user/admin-user.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { LibraryListComponent } from './components/library-list/library-list.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, provideHttpClient } from '@angular/common/http';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
-import { AboutComponent } from './components/about/about.component'
+import { AboutComponent } from './components/about/about.component';
+import { LibraryListUserComponent } from './components/library-list-user/library-list-user.component';
+import { LibraryListAdministratorComponent } from './components/library-list-administrator/library-list-administrator.component';
+import { LibraryListAdminComponent } from './components/library-list-admin/library-list-admin.component'
 
 @NgModule({
   declarations: [
@@ -23,8 +25,10 @@ import { AboutComponent } from './components/about/about.component'
     RegistrationComponent,
     AdminUserComponent,
     NavBarComponent,
-    LibraryListComponent,
-    AboutComponent
+    AboutComponent,
+    LibraryListUserComponent,
+    LibraryListAdministratorComponent,
+    LibraryListAdminComponent
   ],
   imports: [
     BrowserModule,
