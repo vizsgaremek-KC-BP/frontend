@@ -40,13 +40,13 @@ body {
     left: 110vh;
     position: absolute;
     text-align: justify;
-    top: 70vh;
+    top: 75vh;
     border-radius: 25px;
     padding: 10px;
     background-image: linear-gradient(to right, white, lightgrey);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 13.5px;
+    font-size: 12px;
 }
 ul{
     padding: 10px;

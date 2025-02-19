@@ -9,13 +9,14 @@ import { LibraryListAdministratorComponent } from './components/library-list-adm
 import { LibraryListAdminComponent } from './components/library-list-admin/library-list-admin.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LogInComponent },
+  { path: 'register', component: RegistrationComponent },
   { path: 'about', component: AboutComponent },
   { path: 'libraryUser', component: LibraryListUserComponent },
   { path: 'libraryAdministrator', component: LibraryListAdministratorComponent },
   { path: 'libraryAdmin', component: LibraryListAdminComponent },
-  { path: 'register', component: RegistrationComponent }
 
 ];
 

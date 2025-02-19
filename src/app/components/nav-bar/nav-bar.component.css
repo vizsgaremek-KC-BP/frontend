@@ -6,3 +6,13 @@ nav{
 a, button{
     color: #F7EEDD;
 }
+#translateHU{
+    left: 202vh;
+    position: absolute;
+    border-radius: 50vh;
+}
+#translateEN{
+    left: 194vh;
+    position: absolute;
+    border-radius: 50vh;
+}

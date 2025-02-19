@@ -17,7 +17,7 @@ body {
     left: 120vh;
     position: absolute;
     text-align: justify;
-    top: 20vh;
+    top: 10vh;
     /* border: 3px solid lightblue; */
     border-radius: 25px;
     padding: 10px;
@@ -25,6 +25,9 @@ body {
     background-image: linear-gradient(to right, white, lightgrey);
     -webkit-background-clip: text;
     color: transparent;
+}
+p{
+    line-height: 30px;
 }
 
 /* rgb(11, 11, 88) */

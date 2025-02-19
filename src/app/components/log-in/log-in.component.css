@@ -30,6 +30,8 @@ h2{
 input{
     border-radius: 25px;
     color: #343c3d;
+    padding-bottom: 10px;
+    margin-bottom: 3vh;
 }
 label{
     color: #343c3d;
